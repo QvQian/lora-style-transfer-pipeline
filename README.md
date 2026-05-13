@@ -35,7 +35,10 @@ Result Evaluation
 ## Example Results
 | Input | Stylized Output |
 |---|---|
-| ![](assets/dog3.jpg) | ![](assets/00068-3881454551.png) |
+| ![](assets/dog3.jpg) | ![](assets/dog3-result.png) |
+| ![](assets/dog4.jpg) | ![](assets/dog4-result.png) |
+| ![](assets/fox.jpg) | ![](assets/fox-result.png) |
+| ![](assets/wolf.jpg) | ![](assets/wolf-result.png) |
 
 
 
