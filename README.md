@@ -20,15 +20,11 @@ This project explores how to build a stable and reusable style transfer workflow
 
 ## Workflow
 
-Dataset Preparation
-↓
-LoRA Training (Kohya_ss)
-↓
-Structure Extraction (Canny / OpenPose)
-↓
-Stable Diffusion Generation
-↓
-Result Evaluation
+1. Dataset Preparation
+2. LoRA Training (Kohya_ss)
+3. Structure Extraction (Canny / OpenPose)
+4. Stable Diffusion Generation
+5. Result Evaluation
 
 
 
