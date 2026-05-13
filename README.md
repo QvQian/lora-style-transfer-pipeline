@@ -4,7 +4,7 @@ A reproducible workflow for controllable image style transfer using Stable Diffu
 
 This project explores how to build a stable and reusable style transfer workflow that preserves structural consistency while applying stylized visual transformations.
 
----
+
 
 ## Features
 
@@ -16,7 +16,7 @@ This project explores how to build a stable and reusable style transfer workflow
 - txt2img and img2img support
 - Reproducible generation pipeline
 
----
+
 
 ## Workflow
 
@@ -30,14 +30,13 @@ Stable Diffusion Generation
 ↓
 Result Evaluation
 
----
+
 
 ## Example Results
+| Input | Stylized Output |
+| ![](assets/dog3.jpg) | ![](assets/00068-3881454551.png) |
 
-### Input → Stylized Output
 
-
----
 
 ## Tech Stack
 
@@ -50,7 +49,7 @@ Result Evaluation
 - OpenPose
 - PyTorch
 
----
+
 
 ## Project Goals
 
@@ -61,7 +60,7 @@ This project focuses on:
 - building reusable generation workflows
 - exploring controllable style transfer pipelines
 
----
+
 
 ## Future Work
 
@@ -71,7 +70,7 @@ This project focuses on:
 - Integrate semantic-aware preprocessing
 - Build interactive user interface
 
----
+
 
 ## References
 
