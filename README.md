@@ -36,9 +36,9 @@ Result Evaluation
 | Input | Stylized Output |
 |---|---|
 | ![](assets/dog3.jpg) | ![](assets/dog3-result.png) |
-| ![](assets/dog4.jpg) | ![](assets/dog4-result.png) |
-| ![](assets/fox.jpg) | ![](assets/fox-result.png) |
-| ![](assets/wolf.jpg) | ![](assets/wolf-result.png) |
+| ![](assets/dog4.png) | ![](assets/dog4-result.png) |
+| ![](assets/fox.png) | ![](assets/fox-result.png) |
+| ![](assets/wolf1.jpg) | ![](assets/wolf-result.png) |
 
 
 
