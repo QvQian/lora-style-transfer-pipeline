@@ -34,6 +34,7 @@ Result Evaluation
 
 ## Example Results
 | Input | Stylized Output |
+|---|---|
 | ![](assets/dog3.jpg) | ![](assets/00068-3881454551.png) |
 
 
