@@ -1,8 +1,10 @@
 # lora-style-transfer-pipeline
 
-A reproducible workflow for controllable image style transfer using Stable Diffusion, LoRA fine-tuning, and structure-preserving preprocessing tools such as Canny Edge Detection and OpenPose.
+An individual research project focused on controllable image style transfer using Stable Diffusion and LoRA fine-tuning.
 
-This project explores how to build a stable and reusable style transfer workflow that preserves structural consistency while applying stylized visual transformations.
+The project investigates how structure-preserving techniques, including Canny Edge Detection, OpenPose, and image preprocessing methods, can improve style transfer quality while maintaining subject characteristics.
+
+A human-centered evaluation framework was also developed to assess style fidelity and feature preservation.
 
 
 
@@ -20,12 +22,50 @@ This project explores how to build a stable and reusable style transfer workflow
 
 ## Workflow
 
-1. Dataset Preparation
-2. LoRA Training (Kohya_ss)
-3. Structure Extraction (Canny / OpenPose)
-4. Stable Diffusion Generation
-5. Result Evaluation
+### 1. Dataset Preparation
 
+- Image collection
+- Dataset filtering
+- Caption generation
+- Label refinement
+- Dataset balancing
+
+### 2. LoRA Training
+
+- Stable Diffusion base model
+- Kohya_ss training workflow
+- Parameter tuning
+- Style consistency evaluation
+
+### 3. Structure-Preserving Guidance
+
+- Gaussian Blur preprocessing
+- Canny Edge Detection
+- OpenPose conditioning
+- ControlNet integration
+
+### 4. Image Generation
+
+- txt2img generation
+- img2img generation
+- Controlled style transfer
+
+### 5. Evaluation
+
+- Style fidelity assessment
+- Feature preservation assessment
+- Human evaluation study
+
+
+
+
+## Pipeline Example
+
+| Original Image | Canny Edge Map | Generated Result |
+|---|---|---|
+| ![](assets/original_cat.png) | ![](assets/canny_cat.png) | ![](assets/generated_cat.png) |
+
+Gaussian Blur preprocessing was applied before edge extraction to reduce noise and improve structural guidance during generation.
 
 
 ## Example Results
@@ -38,27 +78,43 @@ This project explores how to build a stable and reusable style transfer workflow
 
 
 
+## Evaluation Methodology
+
+A structured user study was conducted to evaluate generation quality.
+
+Evaluation dimensions included:
+
+- Style Fidelity
+- Feature Preservation
+- Structural Consistency
+- Overall Visual Quality
+
+A total of 35 responses were collected.
+
+After style-recognition screening, 26 valid responses were retained for analysis.
+
+
+
 ## Tech Stack
 
 - Stable Diffusion
 - LoRA
 - Kohya_ss
-- Python
-- OpenCV
 - ControlNet
 - OpenPose
 - Canny Edge Detection
+- OpenCV
+- Python
 
 
 
-## Project Goals
+## Project Highlights
 
-This project focuses on:
-
-- improving style consistency
-- preserving structural features
-- building reusable generation workflows
-- exploring controllable style transfer pipelines
+- Built a custom dataset containing 125 images.
+- Designed an end-to-end LoRA training and evaluation workflow.
+- Integrated ControlNet-based structure preservation methods.
+- Developed a human-centered evaluation framework.
+- Collected 35 questionnaire responses and analyzed 26 valid samples.
 
 
 
