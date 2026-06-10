@@ -40,14 +40,14 @@ This project explores how to build a stable and reusable style transfer workflow
 
 ## Tech Stack
 
-- Python
 - Stable Diffusion
 - LoRA
 - Kohya_ss
+- Python
 - OpenCV
 - ControlNet
 - OpenPose
-- PyTorch
+- Canny Edge Detection
 
 
 
